@@ -1,0 +1,46 @@
+:root {
+  color: #0f172a;
+  background: linear-gradient(135deg, #eff6ff, #f8fafc 55%, #ede9fe);
+  font-family: Inter, 'Segoe UI', sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --bg: #f8fbff;
+  --panel-bg: rgba(255, 255, 255, 0.86);
+  --input-bg: #ffffff;
+  --text: #475569;
+  --text-h: #111827;
+  --border: #dbe4f0;
+  --accent: #6366f1;
+  --accent-bg: rgba(99, 102, 241, 0.12);
+  --accent-border: rgba(99, 102, 241, 0.35);
+  --shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+}
+
+* { box-sizing: border-box; }
+
+html, body, #root { min-height: 100%; }
+
+body {
+  margin: 0;
+  background: linear-gradient(135deg, #eff6ff, #f8fafc 55%, #ede9fe);
+}
+
+#root {
+  width: min(1280px, 100%);
+  margin: 0 auto;
+}
+
+h1, h2, p { margin-top: 0; }
+
+h1 {
+  font-size: clamp(2rem, 5vw, 3.1rem);
+  line-height: 1.05;
+  color: var(--text-h);
+}
+
+h2 {
+  font-size: 1.2rem;
+  color: var(--text-h);
+}
